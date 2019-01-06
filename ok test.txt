@@ -1,2 +1,8 @@
 ok test
+<<<<<<< HEAD
 okoko
+=======
+test 2 kkk
+non je pense pas
+on verra
+>>>>>>> ee97f2f01b0fff2473634a3ea1a0c87c84cc2bb8
