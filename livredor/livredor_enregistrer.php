@@ -25,7 +25,7 @@ function ControleVide_lo()
 <table width="100%">
 <form Name="Livredor" action="livredor/livredor_inser.php">
     <TR>
-	<TD>Pseudo ou prénom:</TD>
+	<TD>Pseudo ou prÃ©nom:</TD>
         <TD><Input Type="text" Name="pseudo" Size="50" Maxlength="100"></TD>
     </TR>
     <TR>
