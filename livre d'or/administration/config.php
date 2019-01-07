@@ -1,12 +1,12 @@
 <?php
-// définition du nombre de messages par page
+// dï¿½finition du nombre de messages par page
 $nombreDeMessagesParPage = 5 ;
 
 // on initialise les variables de gestion des erreurs
 $nbre_erreur = 0 ;
 $erreur = '' ;
 
-// on se connecte à notre base de données
+// on se connecte ï¿½ notre base de donnï¿½es
 $connexion = @mysql_connect ('localhost', 'root', '') ;
 
 if($connexion) {
@@ -18,6 +18,6 @@ if($connexion) {
 }
 else {
 	$nbre_erreur = 1 ;
-	$erreur = 'Erreur de connexion à la base de donn&eacute;es' ;
+	$erreur = 'Erreur de connexion Ã  la base de donn&eacute;es' ;
 }
 ?>
