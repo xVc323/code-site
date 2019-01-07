@@ -74,7 +74,7 @@ if ($nbre_erreur == 0) {
 
 	<h1>Bienvenu sur le livre d'or de Fast+</h1>
 
-	<p>Vous pouvez ajouter un message.</p>
+	<p>Vous pouvez ajouter un message afin de montrer votre immense bonheur que vous procure nos services</p>
 	<p><?php echo $nombre_messages ?> messages dans le livre d'or.</p>
 	<form method="post" action="index.php"><p>
 	pseudo : <input type="text" name="pseudo" /><br />
