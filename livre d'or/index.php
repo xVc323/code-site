@@ -1,6 +1,6 @@
 <?php
 include('administration/config.php') ;
- 
+
 //on teste l'existance de $_POST['pseudo'] et $_POST['message']
 if (isset($_POST['pseudo']) AND isset($_POST['message']) AND ($nbre_erreur==0)) {
 	if ($_POST['pseudo'] != NULL AND $_POST['message'] != NULL) {
@@ -17,11 +17,11 @@ if (isset($_POST['pseudo']) AND isset($_POST['message']) AND ($nbre_erreur==0)) 
 			$mail = mysql_real_escape_string($_POST['mail']) ;
 			$localisation = mysql_real_escape_string($_POST['localisation']) ;
 		}
-		// préparation de la requete  
+		// prï¿½paration de la requete
 		$sql_1 = 'INSERT INTO message (auteur, texte, mail, mail_visible, date, localisation) VALUES ("'.$auteur.'","'.$message.'","'.$mail.'","'.$mail_visible.'",NOW(),"'.$localisation.'") ;' ;
 
-		// on lance la requête (mysql_query) 
-		
+		// on lance la requï¿½te (mysql_query)
+
 		mysql_query($sql_1) ;
 		if(mysql_error()) {
 			$nbre_erreur = 1 ;
@@ -30,7 +30,7 @@ if (isset($_POST['pseudo']) AND isset($_POST['message']) AND ($nbre_erreur==0)) 
 	}
 }
 
-//on vérifie si $_GET['page']  existe (si la personnne veut afficher une autre page)
+//on vï¿½rifie si $_GET['page']  existe (si la personnne veut afficher une autre page)
 if (isset($_GET['page'])) {
 	$page = $_GET['page'] ;
 }
@@ -38,7 +38,7 @@ else {
 	$page = 1 ;
 }
 
-//on compte le nombre de messages présents dans la base
+//on compte le nombre de messages prï¿½sents dans la base
 if ($nbre_erreur == 0) {
 	$sql_2 = 'SELECT COUNT(*) AS nbre_entrees FROM message' ;
 	$retour_sql_2 = @mysql_query($sql_2) ;
@@ -52,10 +52,10 @@ if ($nbre_erreur == 0) {
 	}
 }
 
-// préparation de la requete  
+// prï¿½paration de la requete
 $sql_3 = 'SELECT * FROM message ORDER BY id DESC LIMIT '. (($page - 1) * $nombreDeMessagesParPage) .', '.($nombreDeMessagesParPage) ;
 
-// on lance la requête (mysql_query) et on impose un message d'erreur si la requête ne se passe pas bien (or die)  
+// on lance la requï¿½te (mysql_query) et on impose un message d'erreur si la requï¿½te ne se passe pas bien (or die)
 if ($nbre_erreur == 0) {
 	$retour_sql_3 = @mysql_query($sql_3) ;
 	if(mysql_error()) {
@@ -72,7 +72,7 @@ if ($nbre_erreur == 0) {
 	</head>
 	<body>
 
-	<h1>Bienvenu sur mon livre d'or</h1>
+	<h1>Bienvenu sur le livre d'or de Fast+</h1>
 
 	<p>Vous pouvez ajouter un message.</p>
 	<p><?php echo $nombre_messages ?> messages dans le livre d'or.</p>
@@ -95,7 +95,7 @@ if($nbre_erreur == 0) {
 // on va scanner tous les tuples un par un
 	while ($donnee_sql_3 = mysql_fetch_array($retour_sql_3)) {
 
-// on affiche le nom de l'auteur de sujet 
+// on affiche le nom de l'auteur de sujet
 		echo '<p>' ,htmlspecialchars($donnee_sql_3['auteur']);
 
 // on affiche le mail si la personne l'autorise
@@ -103,7 +103,7 @@ if($nbre_erreur == 0) {
 			echo ' (' , $donnee_sql_3['mail'] , ') ' ;
 		}
 
-// on affiche la date du message 
+// on affiche la date du message
 		echo ' le ' , $donnee_sql_3['date'] , '
 ';
 
@@ -142,7 +142,7 @@ else {
 </html>
 <?php
 if($connexion) {
-	if($base) {// on libère l'espace mémoire alloué pour ces requêtes
+	if($base) {// on libï¿½re l'espace mï¿½moire allouï¿½ pour ces requï¿½tes
 		if (is_resource($retour_sql_2)) {
 			mysql_free_result($retour_sql_2) ;
 		}
@@ -150,7 +150,7 @@ if($connexion) {
 			mysql_free_result($retour_sql_3) ;
 		}
 	}
-// on ferme la connexion à la base de données. 
+// on ferme la connexion ï¿½ la base de donnï¿½es.
 	mysql_close() ;
 }
 ?>
