@@ -9,7 +9,7 @@ if(isset($_GET['action']) and in_array($_GET['action'],$valide))
                 case "add":
                 add($_GET['ref'],$_GET['qte']);
                 aff();
-                break;                
+                break;
                 case "aff":
                 aff();
                 break;
