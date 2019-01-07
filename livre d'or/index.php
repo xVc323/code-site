@@ -25,7 +25,7 @@ if (isset($_POST['pseudo']) AND isset($_POST['message']) AND ($nbre_erreur==0)) 
 		mysql_query($sql_1) ;
 		if(mysql_error()) {
 			$nbre_erreur = 1 ;
-			$erreur = 'Erreur de la requ&ecirc;te' . $sql . '<br />' . mysql_error() ;
+			$erreur = 'Erreur de la requète' . $sql . '<br />' . mysql_error() ;
 		}
 	}
 }
@@ -44,7 +44,7 @@ if ($nbre_erreur == 0) {
 	$retour_sql_2 = @mysql_query($sql_2) ;
 	if(mysql_error()) {
 		$nbre_erreur = 1 ;
-		$erreur = 'Erreur de la requ&ecirc;te : ' . $sql_2 . '<br />' . mysql_error() ;
+		$erreur = 'Erreur de la requète : ' . $sql_2 . '<br />' . mysql_error() ;
 	}
 	else {
 		$donnee_sql_2 = mysql_fetch_array($retour_sql_2) ;
