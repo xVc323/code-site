@@ -19,7 +19,7 @@
 
 				<tr>
 
-					<td><input type="text" style="text-align:left" name="auteur" size="38" value=""> Nom</td></tr>
+					<td valign="left"><input type="text" style="text-align:left;" name="auteur" size="38" value=""> Nom</td></tr>
 
 				<tr>
 
