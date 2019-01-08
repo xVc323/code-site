@@ -13,13 +13,13 @@
 
 				<tr>
 
-					<td class="news_entete" style="text-align:center;color:#E2E3B1;">Ajouter une réponse</td>
+					<td class="news_entete" style="text-align:center;color:#5AC5A2;">Ajouter une réponse</td>
 
 				</tr>
 
 				<tr>
 
-					<td valign="left"><input type="text" style="text-align:left;" name="auteur" size="38" value=""> Nom</td></tr>
+					<td><input type="text" style="text-align:left" name="auteur" size="38" value=""> Nom</td></tr>
 
 				<tr>
 
@@ -39,10 +39,7 @@
 
 				</tr>
             <tr>
-               <td>			<p class="forumpara">Mise en forme : gras = [b]...[/b], italic = [i]...[/i], soulign&eacute; = [u]...[/u],
-         citation = [quote]...[/quote], lien = [url]liens_externe[/url] ou [url nom=texte]liens_externe[/url],
-         code source : [code]...[/code]
-         </p>
+               <td>
 </td>
             </tr>
 				<tr>
