@@ -13,6 +13,7 @@ height: 70%; /* La bannière fera 20% de la hauteur de la page... */
 width: 100%; /* et 100% de la largeur. */
 background-image : url(images/bandeau.jpg);
 background-repeat: repeat /* le fond se répète dans toute les direction. (ligne facultative car option par défaut, mais comme ça coute rien de la mettre...) */
+text-align: center;
 }
 
 .surcouche
