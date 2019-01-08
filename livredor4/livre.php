@@ -257,7 +257,14 @@ if(isset($_POST['submit']))
 }else echo"Vous devez saisir tous les champs pour pouvoir poster un commentaire";
 
 }
+$connect = mysql_connect('localhost','root');
+mysql_select_db('php');
 
+$query = mysql_query("INSERT INTO livredor(id,nom,email,message) VALUES(",'$nom','$email',''$message')")";
+if($query)
+{
+  echo"Merci de contribuer l'aventure Fast+, votre message sera traiter dans les plus brefs délais"
+}
  ?>
 <form method="POST" action"livre.php">
   <hr>
