@@ -12,7 +12,6 @@ img {
 }
 
 .onglets {
-
 columns:3;
 column-width:30%;
 column-rule-style:solid;
@@ -22,19 +21,14 @@ column-rule-color:black;
 margin:auto;
 padding:2px;
 border:2px solid black;
-width:100%;
+width:99%;
 font-size:15px;
 background-color: #5ccaa6
-
 }
 
 p {
-
-margin-bottom:0.1em;
+margin-bottom:0.3em;
 color: #000000;
-
-}
-
 }
 
 .surcouche {
