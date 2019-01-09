@@ -15,7 +15,7 @@ img {
 .onglet2 {
   height: 20%;
   width: 30%;
-  backgroud-image:url("images/onglet2.png");
+  backgroud-image: url("images/onglet2.png");
   background-repeat: repeat-x;
 }
 
