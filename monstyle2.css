@@ -14,14 +14,15 @@ img {
 .onglet1 {
   height: 30%;
   width: 30%
-  backgroud-image:url("images/onglet3.png");
-  background-repeat: repeat-x;
+
 }
 
 .onglet2 {
   height: 30%;
   width: 30%;
   margin: auto;
+  backgroud-image:url("images/onglet3.png");
+  background-repeat: repeat-x;
 }
 
 .surcouche {
