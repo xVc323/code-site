@@ -12,7 +12,6 @@ header {
   width: 100%;
   /* et 100% de la largeur. */
   background-image: url(images/bannieretop.png);
-  background-repeat: repeat
     /* le fond se répète dans toute les direction. (ligne facultative car option par défaut, mais comme ça coute rien de la mettre...) */
     text-align: center;
 
