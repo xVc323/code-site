@@ -1,211 +1,212 @@
-header
-{
-position : absolute ;
-top : 1% ;
-left : 1% ;
-height : 33% ;
-width : 98% ;
+header {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  height: 33%;
+  width: 98%;
 }
 
-#banniere
-{
-height: 70%; /* La bannière fera 20% de la hauteur de la page... */
-width: 100%; /* et 100% de la largeur. */
-background-image : url(images/bandeau.jpg);
-background-repeat: repeat /* le fond se répète dans toute les direction. (ligne facultative car option par défaut, mais comme ça coute rien de la mettre...) */
-text-align: center;
+#banniere {
+  height: 60%;
+  /* La bannière fera 20% de la hauteur de la page... */
+  width: 100%;
+  /* et 100% de la largeur. */
+  background-image: url(images/bandeau.jpg);
+  background-repeat: repeat
+    /* le fond se répète dans toute les direction. (ligne facultative car option par défaut, mais comme ça coute rien de la mettre...) */
+    text-align: center;
+
 }
 
-.surcouche
-{
-  background-color: #F0E36B ;
-  opacity: 0.60 ;
-  border-radius: 25px ;
-position : absolute ;
-top : 24% ;
-left : 20% ;
-height : 8% ;
-width : 77% ;
-}
-.surcouche2
-{
-letter-spacing: 5px ;
-opacity: 1 ;
-position : absolute ;
-top : 20.5% ;
-left : 23.5% ;
-height : 15% ;
-width : 76% ;
-}
-nav
-{
-  background-color: #1AD1FF ;
-  border : 3px solid #000000 ;
-  border-radius: 25px ;
-  padding-left: 1% ;
-  padding-right: 1% ;
-  padding-top: 1% ;
-  position : absolute ;
-  top :38% ;
-  left :66% ;
-  height : 10% ;
-  width : 30%
-}
-.cgauche
-{
-  background-color: #1AD1FF ;
-  border : 3px solid #000000 ;
-  border-radius: 25px ;
-  padding-left: 1% ;
-  padding-right: 1% ;
-  padding-top: 1% ;
-  position : absolute ;
-  top :38% ;
-  left :1% ;
-  height : 10% ;
-  width : 30%
-}
-.m1
-{
-  background-color: #1AD1FF ;
-  border : 3px solid #000000 ;
-  border-radius: 1800px ;
-  padding-left: 1% ;
-  padding-right: 1% ;
-  padding-top: 0.01% ;
-  padding-bottom: 3.5% ;
-  position : absolute ;
-  top :35.5% ;
-  left :34% ;
-  height : 10% ;
-  width : 29%
-}
-.qsn
-{
-  background-color: #1AD1FF ;
-  border : 3px solid #000000 ;
-  border-radius: 25px ;
-  padding-left: 1% ;
-  padding-right: 1% ;
-  padding-top: 0.01% ;
-  padding-bottom: 3.5% ;
-  position : absolute ;
-  top :55% ;
-  left :34% ;
-  height : 28% ;
-  width : 29%
-}
-.rse
-{
-  background-color: #1AD1FF ;
-  border : 3px solid #000000 ;
-  border-radius: 25px ;
-  padding-left: 1% ;
-  padding-right: 1% ;
-  padding-top: 0.01% ;
-  padding-bottom: 3.5% ;
-  position : absolute ;
-  top :53.5% ;
-  left :69% ;
-  height : 28% ;
-  width : 25%
-}
-.pdt
-{
-  background-color: #FFFFFF ;
-  border : 3px solid #FFFFFF ;
-  border-radius: 25px ;
-  padding-left: 1% ;
-  padding-right: 1% ;
-  padding-top: 0.1% ;
-  position : absolute ;
-  top :52% ;
-  left :1% ;
-  height : 40% ;
-  width : 30%
-}
-.cl
-{
+.surcouche {
+  background-color: #F0E36B;
+  opacity: 0.60;
+  border-radius: 25px;
   position: absolute;
-  top :95% ;
-  left :1% ;
-  height : 1% ;
-  width : 33% ;
+  top: 24%;
+  left: 20%;
+  height: 8%;
+  width: 77%;
 }
-.cl2
-{
+
+.surcouche2 {
+  letter-spacing: 5px;
+  opacity: 1;
   position: absolute;
-  top :95% ;
-  left :88% ;
-  height : 1% ;
-  width : 10% ;
+  top: 20.5%;
+  left: 23.5%;
+  height: 15%;
+  width: 76%;
 }
-.ctsm
-{
-  background-color: #1AD1FF ;
-  border : 3px solid #000000 ;
-  border-radius: 1800px ;
-  padding-left: 1% ;
-  padding-right: 1% ;
-  padding-top: 0.4% ;
-  position : absolute ;
-  top :35.5% ;
-  left :34% ;
-  height : 10% ;
-  width : 29%
+
+nav {
+  background-color: #1AD1FF;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  position: absolute;
+  top: 38%;
+  left: 66%;
+  height: 10%;
+  width: 30%
 }
-.ctsm1
-{
-  background-color: #1AD1FF ;
-  border : 3px solid #000000 ;
-  border-radius: 25px ;
-  padding-left: 1% ;
-  padding-right: 1% ;
-  padding-top: 0.01% ;
-  padding-bottom: 3.5% ;
-  position : absolute ;
-  top :48% ;
-  left :34% ;
-  height : 83% ;
-  width : 29%
+
+.cgauche {
+  background-color: #1AD1FF;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  position: absolute;
+  top: 38%;
+  left: 1%;
+  height: 10%;
+  width: 30%
 }
-.ctsg
-{
-  border-radius: 25px ;
-  padding-left: 1% ;
-  padding-right: 1% ;
-  padding-top: 0.01% ;
-  padding-bottom: 3.5% ;
-  position : absolute ;
-  top :55% ;
-  left :2% ;
-  height : 68% ;
-  width : 29%
+
+.m1 {
+  background-color: #1AD1FF;
+  border: 3px solid #000000;
+  border-radius: 1800px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.01%;
+  padding-bottom: 3.5%;
+  position: absolute;
+  top: 35.5%;
+  left: 34%;
+  height: 10%;
+  width: 29%
 }
-.ctsm2
-{
-  background-color: #1AD1FF ;
-  border : 3px solid #000000 ;
-  border-radius: 25px ;
-  padding-left: 1% ;
-  padding-right: 1% ;
-  padding-top: 0.01% ;
-  padding-bottom: 3.5% ;
-  position : absolute ;
-  top :48% ;
-  left :68% ;
-  height : 85.5% ;
-  width : 29%
+
+.qsn {
+  background-color: #1AD1FF;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.01%;
+  padding-bottom: 3.5%;
+  position: absolute;
+  top: 55%;
+  left: 34%;
+  height: 28%;
+  width: 29%
 }
-a
-{
-color : white ;
+
+.rse {
+  background-color: #1AD1FF;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.01%;
+  padding-bottom: 3.5%;
+  position: absolute;
+  top: 53.5%;
+  left: 69%;
+  height: 28%;
+  width: 25%
 }
-a : hover
-{
-color : white ;
+
+.pdt {
+  background-color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  border-radius: 25px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.1%;
+  position: absolute;
+  top: 52%;
+  left: 1%;
+  height: 40%;
+  width: 30%
 }
-a : visited
-{
-color : white ;
+
+.cl {
+  position: absolute;
+  top: 95%;
+  left: 1%;
+  height: 1%;
+  width: 33%;
+}
+
+.cl2 {
+  position: absolute;
+  top: 95%;
+  left: 88%;
+  height: 1%;
+  width: 10%;
+}
+
+.ctsm {
+  background-color: #1AD1FF;
+  border: 3px solid #000000;
+  border-radius: 1800px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.4%;
+  position: absolute;
+  top: 35.5%;
+  left: 34%;
+  height: 10%;
+  width: 29%
+}
+
+.ctsm1 {
+  background-color: #1AD1FF;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.01%;
+  padding-bottom: 3.5%;
+  position: absolute;
+  top: 48%;
+  left: 34%;
+  height: 83%;
+  width: 29%
+}
+
+.ctsg {
+  border-radius: 25px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.01%;
+  padding-bottom: 3.5%;
+  position: absolute;
+  top: 55%;
+  left: 2%;
+  height: 68%;
+  width: 29%
+}
+
+.ctsm2 {
+  background-color: #1AD1FF;
+  border: 3px solid #000000;
+  border-radius: 25px;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 0.01%;
+  padding-bottom: 3.5%;
+  position: absolute;
+  top: 48%;
+  left: 68%;
+  height: 85.5%;
+  width: 29%
+}
+
+a {
+  color: white;
+}
+
+a : hover {
+  color: white;
+}
+
+a : visited {
+  color: white;
 }
