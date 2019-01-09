@@ -11,6 +11,33 @@ img {
   width: 100%;
 }
 
+.onglet1 {
+  height: 10%;
+  width: 33%;
+  background-color: #5ccaa6;
+  border: 2px solid black;
+  float: left;
+
+}
+
+.onglet2 {
+  left: 30%;
+  height: 10%;
+  width: 32%;
+  background-color: #5ccaa6;
+  border: 2px solid black;
+  float: left;
+
+}
+
+.onglet3 {
+  height: 10%;
+  width: 32%;
+  background-color: #5ccaa6;
+  border: 2px solid black;
+  float: left;
+
+}
 
 .surcouche {
   background-color: #F0E36B;
