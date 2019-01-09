@@ -14,6 +14,8 @@ img {
 .onglet1 {
   height: 30%;
   width: 30%
+  backgroud-image:url("images/onglet3.png");
+  background-repeat: repeat-x;
 }
 
 .onglet2 {
