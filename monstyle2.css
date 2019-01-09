@@ -19,6 +19,10 @@ img {
   background-repeat: repeat-x;
 }
 
+.onglet2 p {
+  align-content: center;
+}
+
 .surcouche {
   background-color: #F0E36B;
   opacity: 0.60;
