@@ -19,7 +19,7 @@ img {
 .onglet2 {
   height: 30%;
   width: 30%;
-  margin: auto;
+  margin: 10px;
   background:url("images/onglet2.png");
 }
 
