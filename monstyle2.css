@@ -18,7 +18,8 @@ img {
 
 .onglet2 {
   height: 30%;
-  width: 30%
+  width: 30%;
+  margin: auto;
 }
 
 .surcouche {
