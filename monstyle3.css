@@ -63,6 +63,11 @@ hr {
   margin: 0 auto;
   margin-bottom: auto;
   color: #000000;
+  margin-top: 30%;
+  min-width: 80%;
+  max-width: 90%;
+  min-height: auto;
+  max-height: auto;
 }
 
 .col1 {
