@@ -156,10 +156,8 @@ a : visited {
 footer {
   columns: 2;
   column-width: 40%;
-  column-rule-style: solid;
   column-rule-width: 40%;
   margin: auto;
-  vertical-align: text-bottom;
 }
 
 footer p {
