@@ -33,14 +33,17 @@ img {
 
 .col1 {
 	float: left;
-	width: 160px;
-	background: lightblue;
+	width: 20%;
 }
 
 .col2 {
 	float: right;
 	width: 300px;
-	background: burlywood;
+}
+
+.col3 {
+	float: right;
+	width: 300px;
 }
 
 .cl {
