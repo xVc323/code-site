@@ -110,6 +110,6 @@ footer {
 
 footer p {
   margin: 0 auto;
-  margin-bottom: 0;
+  margin-bottom: 1px;
   color: #000000;
 }
