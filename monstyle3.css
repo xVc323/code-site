@@ -160,4 +160,5 @@ footer {
   column-rule-width: 30%;
   column-rule-color: black;
   margin: auto;
+  vertical-align: text-bottom;
 }
