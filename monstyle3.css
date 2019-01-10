@@ -48,7 +48,7 @@ hr {
   column-rule-color: black;
   margin: auto;
   padding: 2px;
-  border: 2px solid black;
+  border: 2px solid black round;
   width: 99%;
   font-size: 15px;
   background-color: #5ccaa6;
