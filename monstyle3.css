@@ -67,11 +67,13 @@ hr {
 }
 
 .cl {
+  height: 200px;
+  position: relative;
+}
+
+.cl p {
   position: absolute;
-  top: 95%;
-  left: 1%;
-  height: 1%;
-  width: 33%;
+  bottom: 0;
 }
 
 .cl2 {
