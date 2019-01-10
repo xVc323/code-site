@@ -59,6 +59,7 @@ h2 {
   overflow: auto;
   width: 100%;
   clear: both;
+  border-right: #FFFFFF;
 }
 
 #menu {
