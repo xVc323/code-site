@@ -53,9 +53,9 @@ hr {
   font-size: 15px;
   background-color: #5ccaa6;
   margin-top: 30%;
-  min-width: 150px;
-  max-width: 300px;
-  min-height: 300;
+  min-width: auto;
+  max-width: auto;
+  min-height: auto;
 }
 
 .ongletsbody p {
