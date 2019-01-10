@@ -10,7 +10,7 @@ $erreur = '' ;
 $connexion = @mysql_connect ('localhost', 'root', '') ;
 
 if($connexion) {
-	$base = @mysql_select_db('livre_dor',$connexion) ;
+	$base = @mysql_select_db('livredor',$connexion) ;
 	if(!($base)) {
 		$nbre_erreur = 1 ;
 		$erreur = 'Erreur de s&eacute;lection de la base de donn&eacute;es' ;

@@ -1,6 +1,6 @@
 <?
 session_start();
-require("function.php");
+require("/Volumes/Macintosh HD/Users/patrickcheurfa/Library/Mobile Documents/com~apple~CloudDocs/ICN - Bachelor 2/ICN - Semestre 3/Informatique de gestion/site/code-site/panier/function.php");
 $valide = array("add","del","aff","modif");
 if(isset($_GET['action']) and in_array($_GET['action'],$valide))
 {

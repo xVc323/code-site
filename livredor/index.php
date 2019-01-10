@@ -5,10 +5,10 @@
 <BODY background="images/filigrane.bmp" bgproperties="fixed">
 <H1>Livre d'or</H1>
 <table border="0" width="100%">
-<a href="livredor_enregistrer.php" class=lien>Insérer un commentaire</a>
+<a href="/Volumes/Macintosh HD/Users/patrickcheurfa/Library/Mobile Documents/com~apple~CloudDocs/ICN - Bachelor 2/ICN - Semestre 3/Informatique de gestion/site/code-site/livredor/livredor_enregistrer.php" class=lien>Insérer un commentaire</a>
 <?php
 //on ouvre le dossier
-$dossier = "livredor/";
+$dossier = "/Volumes/Macintosh HD/Users/patrickcheurfa/Library/Mobile Documents/com~apple~CloudDocs/ICN - Bachelor 2/ICN - Semestre 3/Informatique de gestion/site/code-site/livredor/";
 $dir = opendir("$dossier");
 //Pendant que la variable file peut prendre la valeur de readdir($dir)
 While ($file=readdir($dir)) {

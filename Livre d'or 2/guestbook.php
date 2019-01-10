@@ -24,8 +24,8 @@
 								Laissez y une trace de votre passage,en indiquant un commenatires
 								remarques ou suggestions.
 								<?php
-									$db = mysql_connect('localhost', 'login', 'password'); 
-									mysql_select_db('aprimexpert_db',$db);                    
+									$db = mysql_connect('localhost:8888', 'root', ''); 
+									mysql_select_db('livredor',$db);                    
 									$req = mysql_query('SELECT * FROM guest');          
 									$res = mysql_numrows($req);                               
 									$res2 = $res - 5;
@@ -72,7 +72,7 @@
 
                            					    &nbsp;<br>
 								    <?php  
-									$db = mysql_connect('localhost', 'login', 'password'); 
+									$db = mysql_connect('localhost:8888', 'root', ''); 
 									mysql_select_db('aprimexpert_db',$db); 
 									if ($nbre)
 									{

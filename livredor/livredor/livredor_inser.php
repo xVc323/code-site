@@ -44,7 +44,7 @@ fputs($fp,$commentaire);
 //On le ferme
 fclose($fp);
 
-mail("vous@votresite.com","Un commentaire dans le livre dor","Un commentaire a été inséré dans le livre d'or de votre site","From:robot-livredor@votresite.com\nReply-To: no@reply.com");
+mail("lefauve2tamere@yahoo.fr","Un commentaire dans le livre dor","Un commentaire a été inséré dans le livre d'or de votre site","From:robot-livredor@votresite.com\nReply-To: no@reply.com");
 ?>
 </body>
 </html>
