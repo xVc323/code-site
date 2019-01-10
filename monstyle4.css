@@ -12,7 +12,7 @@ a {
   color: #369;
 }
 
-.mention {
+p.mention {
   margin: 1em;
   color: #666666;
   clear: both;
