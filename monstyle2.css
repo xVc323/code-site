@@ -51,6 +51,7 @@ img {
   margin: 0 auto;
   margin-bottom: auto;
   color: #000000;
+  display: inline-block;
 }
 
 .cl {
