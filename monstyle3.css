@@ -39,7 +39,7 @@ img {
 
 .col2 {
   margin-top: 40%;
-  overflow: auto
+  overflow: hidden;
 }
 
 .col3 {
