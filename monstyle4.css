@@ -29,7 +29,7 @@ h2 {
 
 #col1 p, #col2 p, #col3 p {
   margin-top: 30px;
-
+  margin: 30px;
 }
 
 #menu ul, #menu li {
