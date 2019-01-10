@@ -29,7 +29,7 @@ background-color: #5ccaa6
 .onglets p {
 margin-bottom:auto;
 color: #000000;
-text-align: middle;
+text-align: -webkit-center;
 }
 
 .surcouche {
