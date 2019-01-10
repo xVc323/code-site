@@ -101,14 +101,8 @@ h2 {
   }
 }
 
-footer {
-  columns: 2;
-  column-width: 45%;
-  margin-bottom: : 1%;
+.bas {
   border-top: 2px solid black;
-}
-
-footer p {
   margin: 0 auto;
   margin-bottom: 1px;
   color: #000000;
