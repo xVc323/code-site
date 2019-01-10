@@ -73,7 +73,7 @@ h2 {
 
 @media screen and (min-width: 768px) {
   #col1 {
-    width: 30%;
+    width: 29.2%;
     clear: none;
   }
 
@@ -99,6 +99,6 @@ h2 {
 
   #col1, #col2, #col3, #menu {
     clear: both;
-    width: 110%;
+    width: 100%;
   }
 }
