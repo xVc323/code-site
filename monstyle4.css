@@ -57,7 +57,7 @@ h2 {
   float: left;
   background: #FFFFFF;
   min-height: 300px;
-  overflow: auto;
+  overflow: scroll;
   width: 100%;
   clear: both;
 }
