@@ -35,7 +35,7 @@ img {
   columns: 3;
   column-width: 20%;
   column-rule-style: dotted;
-  column-rule-width: 30%;
+  column-rule-width: 20%;
   column-rule-color: black;
   margin-top: 30%;
   padding: 2px;
