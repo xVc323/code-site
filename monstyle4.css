@@ -66,7 +66,7 @@ h2 {
   overflow: auto;
 }
 
-@media screen and (min-width: 1024px) {
+
   #col1 {
     width: 30%;
     clear: none;
@@ -80,9 +80,9 @@ h2 {
     width: 30%;
     clear: none;
   }
-}
 
-@media screen and (max-width: 640px) {
+
+
   #menu a {
     display: block;
   }
@@ -96,7 +96,7 @@ h2 {
     clear: both;
     width: 100%;
   }
-}
+
 
 .bas {
   background-color: #FFFFFF;
