@@ -1,70 +1,134 @@
-<!DOCTYPE HTML
-    PUBLIC "-//W3C//DTD XHTML 1.0 Strict //EN"
-   "http://www.w3.org/TR/xhtml11/DTD/xhtml11-strick.dtd">
-<html>
-
+<!doctype html>
+<html lang="fr">
 <head>
-  <meta name="description" content="TP CSS Thierry ARDIZIO & Patrick CHEURFA">
-  <meta name="keywords" content="HTML,XHTML,ICN, TP, CSS">
-  <meta name="author" content="Thierry ARDIZIO & Patrick CHEURFA">
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="monstyle3.css" />
-  <title> Fast+ </title>
-</head>
+<title>Fast+ ! Le smartphone le plus rapide au monde</title>
+<meta charset="utf-8">
+<meta name="Patrick CHEURFA et Thierry ARDIZIO" content="Alsacreations">
 
-<header>
-  <div class="img">
-    <img src="images/bannieretop.png">
-  </div>
-  <div class="onglets">
-    <p align="center"> <a href="index2.html"> <b>Acceuil</b> </a> </p>
-    <p align="center"> <a href="cts.html"> <b>Caractéristiques</b> </a> </p>
-    <p align="center"> <a href="url acheter"> <b>Acheter</b> </a> </p>
-  </div>
-</header>
+<style>
+
+/* Styles généraux */
+body {
+	font-family:Sans-serif;
+	font-size:100%;
+	background:#ccc;
+}
+a {
+	color:#369;
+}
+p.mention {
+	margin: 1em;
+	color:#666;
+	clear:both;
+	padding-top:2em;
+}
+h1 {
+	padding:0;
+	color:#fff;
+	text-shadow:1px 1px 1px #aaa;
+	margin-bottom:0;
+	margin:1em;
+}
+h2 {
+	background:#B2D33A;
+	color:#fff;
+	margin:0;
+	padding:4px;
+}
+#menu ul, #menu li {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#menu li {
+	float:left;
+	width:20%;
+	text-align:center;
+}
+#menu a {
+	display:block;
+	background:#444;
+	color:#fff;
+	border-bottom:1px;
+	text-decoration:none;
+	line-height:200%;
+	padding:0 2em;
+}
+#menu a:hover {
+	background:#222;
+}
+
+/* Disposition par défaut */
+#main, #aside {
+	float:left;
+	background:#fff;
+	min-height:300px;
+	overflow:auto;
+	width:100%;
+	clear:both;
+}
+#aside {
+	background:#eee;
+}
+#menu {
+	width:100%;
+	overflow:auto;
+}
+
+/* min-width pour moyennes résolutions */
+@media screen and (min-width: 1024px) {
+	#main {
+		width:70%;
+		clear:none;
+	}
+	#aside {
+		width:30%;
+		clear:none;
+	}
+}
+
+/* max-width pour faibles résolutions */
+@media screen and (max-width: 640px) {
+	#menu a {
+		display:block;
+	}
+	#menu li {
+		float:none;
+		width:100%;
+	}
+	#main, #aside, #menu {
+		clear:both;
+		width:100%;
+	}
+}
+
+</style>
+</head>
 
 <body>
 
-  <div class="col1">
-    <p align="middle"><a href="cts.html"> <img src="images/tel.png" width="660px"> </a>
-    </p>
-  </div>
+	<h1>Démo Media Queries</h1>
 
-  <div class="col2">
-    <font size="3" face="arial" color="#FACC2E">
-      <p align="center"> <b> <i> <u> Qui sommmes-nous ?
-            </u> </i> </b>
-      </p>
-    </font>
-    <font size="2" face="arial" color="#00000">
-      <p align="middle"> Fast Plus est une start-up ayant été créée par deux étudiants tout juste diplomés d'ICN Business School qui ne supportait plus la lenteur et les prix de plus en plus exhorbitants de leurs téléphones. <br>
-        <br> Ils ont donc décidés de créer leur propre smartphone à leur image, <b> rapide </b> et avec un <b> rapport qualité/prix </b> imbattable.
-      </p>
-    </font>
-  </div>
+	<div id="menu">
+		<ul>
+			<li><a href="#">Lien 1</a></li>
+			<li><a href="#">Lien 2</a></li>
+			<li><a href="#">Lien 3</a></li>
+			<li><a href="#">Lien 4</a></li>
+			<li><a href="#">Lien 5</a></li>
+		</ul>
+	</div>
+	<div id="main">
+		<h2>Zone principale</h2>
+		<p>...</p>
+	</div>
+	<div id="aside">
+		<h2>Zone annexe</h2>
+		<p>...</p>
+	</div>
 
-  <div class="col3">
-    <font size="3" face="arial" color="#FACC2E">
-      <p align="middle"> <b> <i> <u> RSE
-            </u> </i> </b>
-      </p>
-    </font>
-    <font size="2" face="arial" color="#00000">
-      <p align="middle">
-        FastPlus s'engage à respecter les six normes de confidentialité obligatoires en accord avec le règlement général sur la protection des données (RGPD) instaurées par le parlement européen et contrôlées par la CNIL en France depuis le 25 mai
-        2018.
-        <br>
-        <br>
-        FastPlus s'engage également à agir en tant qu'entreprise responsable puisque celle-ci mesure son impact environnemental, utilise les technologies les plus propres, garantit les bonnes conditions de travail, favorise la diversité,
-        l'emploi
-        local et fabrique des produits verts. </b>
-      </p>
-  </div>
+	<p class="mention">Page de démonstration <a href="http://www.alsacreations.com">Alsacreations</a> (<a href
+="/article/lire/930-css3-media-queries.html">retour à l'article</a>)</p>
+
 </body>
- <hr>
-  <footer>
-    <p align="left"><font size="4" face="arial" color="2C75FF"> © Copyright ARDIZIO & CHEURFA </font></p>
-    <p align="right"><font size="4" face="arial" color="F7230C"> <b> <u> Informations légales </b> </u> </font></p>
-  </footer>
-
 </html>
