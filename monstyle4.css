@@ -67,7 +67,7 @@ h2 {
   overflow: auto;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   #col1 {
     width: 20%;
     clear: none;
@@ -83,7 +83,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 480px) {
   #menu a {
     display: block;
   }
