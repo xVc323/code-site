@@ -12,45 +12,43 @@ img {
 }
 
 .onglets {
-columns:3;
-column-width:30%;
-column-rule-style:solid;
-column-rule-width:30%;
-column-rule-color:black;
-
-margin:auto;
-padding:2px;
-border:2px solid black;
-width:99%;
-font-size:15px;
-background-color: #5ccaa6;
+  columns: 3;
+  column-width: 30%;
+  column-rule-style: solid;
+  column-rule-width: 30%;
+  column-rule-color: black;
+  margin: auto;
+  padding: 2px;
+  border: 2px solid black;
+  width: 99%;
+  font-size: 15px;
+  background-color: #5ccaa6;
 }
 
 .onglets p {
-margin: 0 auto;
-margin-bottom:auto;
-color: #000000;
+  margin: 0 auto;
+  margin-bottom: auto;
+  color: #000000;
 }
 
 .ongletsbody {
-  columns:3;
-  column-width:30%;
-  column-rule-style:solid;
-  column-rule-width:30%;
-  column-rule-color:black;
-
-  margin-top:30%;
-  padding:2px;
-  border:2px solid black;
-  width:99%;
-  height:10%;
-  font-size:100px;
+  columns: 3;
+  column-width: 30%;
+  column-rule-style: dotted;
+  column-rule-width: 30%;
+  column-rule-color: black;
+  margin-top: 30%;
+  padding: 2px;
+  border: 2px solid black;
+  width: 99%;
+  height: 10%;
+  font-size: 100px;
   background-color: #5ccaa6;
 }
 
 .ongletsbody p {
   margin: 0 auto;
-  margin-bottom:auto;
+  margin-bottom: auto;
   color: #000000;
 }
 
@@ -136,5 +134,5 @@ a : hover {
 }
 
 a : visited {
-  color: black;
+  color: white;
 }
