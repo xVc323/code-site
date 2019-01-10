@@ -31,26 +31,16 @@ img {
   color: #000000;
 }
 
-.ongletsbody {
-  columns: 3;
-  column-width: 30%;
-  column-rule-style: dotted;
-  column-rule-width: 30%;
-  column-rule-color: black;
-  margin-top: 30%;
-  padding: 2px;
-  border: 2px solid black;
-  width: 99%;
-  height: 40%;
-  font-size: 100px;
-  background-color: #5ccaa6;
-  position: fixed;
+.col1 {
+	float: left;
+	width: 160px;
+	background: lightblue;
 }
 
-.ongletsbody p {
-  margin: 0 auto;
-  margin-bottom: auto;
-  color: #000000;
+.col2 {
+	float: right;
+	width: 300px;
+	background: burlywood;
 }
 
 .cl {
