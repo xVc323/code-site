@@ -16,7 +16,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+hr {
+  width: 90%;
 
+}
 
 .onglets {
   columns: 3;
