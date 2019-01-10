@@ -42,7 +42,7 @@ h2 {
 }
 
 /* Disposition par défaut */
-#col1, #col2 {
+#col1, #col2, #col3 {
 	float:left;
 	background:#fff;
 	min-height:300px;
