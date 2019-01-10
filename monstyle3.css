@@ -251,6 +251,7 @@ hr:after {
   }
 }
 }
+
 .onglets {
   columns: 3;
   column-width: 30%;
@@ -272,22 +273,22 @@ hr:after {
 }
 
 .col1 {
-	float: left;
-	width: 20%;
+  float: left;
+  width: 20%;
   margin-top: 40%;
 }
 
 .col2 {
-	float: left;
+  float: left;
   margin-left: 10%;
-	width: 30%;
+  width: 30%;
   margin-top: 40%;
 }
 
 .col3 {
-	float: left;
+  float: left;
   margin-left: 8%;
-	width: 30%;
+  width: 30%;
   margin-top: 40%;
 }
 
