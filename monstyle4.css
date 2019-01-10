@@ -5,7 +5,7 @@ img {
 body {
   font-family: Sans-serif;
   font-size: 100%;
-  background: #cccccc;
+  background: #CCCCCC;
 }
 
 a {
@@ -21,7 +21,7 @@ p.mention {
 
 h2 {
   background: #B2D33A;
-  color: #fff;
+  color: #FFFFFFff;
   margin: 0;
   padding: 4px;
 }
