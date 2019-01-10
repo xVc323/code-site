@@ -11,6 +11,14 @@ img {
   width: 100%;
 }
 
+@import url(https://fonts.googleapis.com/css?family=opensans:500);
+
+._1,
+._404,
+.c {
+  position: relative
+}
+
 body {
   background: #3c9;
   color: #fff;
