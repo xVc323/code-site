@@ -82,7 +82,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 720px) {
   #menu a {
     display: block;
   }
