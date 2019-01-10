@@ -6,9 +6,6 @@ body {
   font-family: Sans-serif;
   font-size: 100%;
   background: #FFFFFF;
-  border-radius: 60px 0px 60px 0px;
-  -moz-border-radius: 60px 0px 60px 0px;
-  -webkit-border-radius: 60px 0px 60px 0px;
 }
 
 a {
