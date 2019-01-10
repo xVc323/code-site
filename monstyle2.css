@@ -23,7 +23,7 @@ padding:2px;
 border:2px solid black;
 width:99%;
 font-size:15px;
-background-color: #5ccaa6
+background-color: #5ccaa6;
 }
 
 .onglets p {
@@ -45,7 +45,7 @@ color: #000000;
   width:99%;
   height:50px;
   font-size:100px;
-  background-color: #5ccaa6
+  background-color: #5ccaa6 ;
 }
 
 .ongletsbody p {
