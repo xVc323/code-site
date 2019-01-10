@@ -1,5 +1,5 @@
 <?php
-include('livredor1/administration/config.php') ;
+include('administration/config.php') ;
 
 //on teste l'existance de $_POST['pseudo'] et $_POST['message']
 if (isset($_POST['pseudo']) AND isset($_POST['message']) AND ($nbre_erreur==0)) {
@@ -127,7 +127,7 @@ if($nbre_erreur == 0) {
 	if($nombre_messages > $nombreDeMessagesParPage) {
 		echo '<p>' ;
 		do {
-			echo '<a href="livredor1/index.php?page=' , $i.'">' , $i , '</a> ' ;
+			echo '<a href="index.php?page=' , $i.'">' , $i , '</a> ' ;
 			$i = $i + 1 ;
 		} while ($nombre_messages > (($i - 1) * $nombreDeMessagesParPage)) ;
 		echo '</p>' ;
