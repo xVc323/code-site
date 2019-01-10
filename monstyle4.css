@@ -62,6 +62,10 @@ h2 {
   margin-left: 2px;
 }
 
+#col1, #col2, #col3 p {
+margin-top: 2px;
+}
+
 #menu {
   width: 100%;
   overflow: auto;
