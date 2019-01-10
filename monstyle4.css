@@ -61,7 +61,7 @@ h2 {
   float: left;
   background: #FFFFFF;
   overflow: auto;
-  width: 110%;
+  width: 100%;
   clear: both;
   margin-left: 2px;
 }
@@ -73,7 +73,7 @@ h2 {
 
 @media screen and (min-width: 768px) {
   #col1 {
-    width: 30%;
+    width: 29.2%;
     clear: none;
   }
 
