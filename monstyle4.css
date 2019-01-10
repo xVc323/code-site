@@ -27,7 +27,7 @@ h2 {
   text-align: center;
 }
 
-#col1, #col2, #col3 {
+.col1, .col2, .col3 p {
   margin-top: 100px;
 }
 
