@@ -37,6 +37,14 @@ body {
   color: #000000;
 }
 
+hr {
+  margin: 100px auto;
+  width: 50%;
+  height: 2px;
+  background-color: #f90;
+  border: none;
+}
+
 .col1 {
   float: left;
   width: 20%;
