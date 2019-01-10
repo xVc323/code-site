@@ -12,7 +12,11 @@ a {
   color: #369;
 }
 
-
+p.mention {
+  margin: 1em;
+  color: #666666;
+  clear: both;
+  padding-top: 2em;
 }
 
 h2 {
