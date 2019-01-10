@@ -1,89 +1,115 @@
 img {
   width: 100%;
 }
+
 body {
-	font-family:Sans-serif;
-	font-size:100%;
-	background:#ccc;
+  font-family: Sans-serif;
+  font-size: 100%;
+  background: #ccc;
 }
+
 a {
-	color:#369;
+  color: #369;
 }
+
 p.mention {
-	margin: 1em;
-	color:#666;
-	clear:both;
-	padding-top:2em;
+  margin: 1em;
+  color: #666;
+  clear: both;
+  padding-top: 2em;
 }
+
 h2 {
-	background:#B2D33A;
-	color:#fff;
-	margin:0;
-	padding:4px;
+  background: #B2D33A;
+  color: #fff;
+  margin: 0;
+  padding: 4px;
 }
+
 #menu ul, #menu li {
-	list-style-type:none;
-	margin:0;
-	padding:0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
 #menu li {
-	float:left;
-	width:20%;
-	text-align:center;
+  float: left;
+  width: 20%;
+  text-align: center;
 }
+
 #menu a {
-	display:block;
-	background:#444;
-	color:#fff;
-	border-bottom:1px;
-	text-decoration:none;
-	line-height:200%;
-	padding:0 2em;
+  display: block;
+  background: #444;
+  color: #fff;
+  border-bottom: 1px;
+  text-decoration: none;
+  line-height: 200%;
+  padding: 0 2em;
 }
+
 #menu a:hover {
-	background:#222;
+  background: #222;
 }
 
 /* Disposition par défaut */
 #col1, #col2, #col3 {
-	float:left;
-	background:#fff;
-	min-height:300px;
-	overflow:auto;
-	width:100%;
-	clear:both;
+  float: left;
+  background: #fff;
+  min-height: 300px;
+  overflow: auto;
+  width: 100%;
+  clear: both;
 }
+
 #col2 {
-	background:#eee;
+  background: #eee;
 }
+
 #menu {
-	width:100%;
-	overflow:auto;
+  width: 100%;
+  overflow: auto;
 }
 
 /* min-width pour moyennes résolutions */
 @media screen and (min-width: 1024px) {
-	#col1 {
-		width:70%;
-		clear:none;
-	}
-	#col2 {
-		width:30%;
-		clear:none;
-	}
+  #col1 {
+    width: 70%;
+    clear: none;
+  }
+
+  #col2 {
+    width: 30%;
+    clear: none;
+  }
 }
 
 /* max-width pour faibles résolutions */
 @media screen and (max-width: 640px) {
-	#menu a {
-		display:block;
-	}
-	#menu li {
-		float:none;
-		width:100%;
-	}
-	#col1, #col2, #menu {
-		clear:both;
-		width:100%;
-	}
+  #menu a {
+    display: block;
+  }
+
+  #menu li {
+    float: none;
+    width: 100%;
+  }
+
+  #col1, #col2, #menu {
+    clear: both;
+    width: 100%;
+  }
+}
+
+footer {
+  columns: 2;
+  column-width: 40%;
+  margin-bottom: : 1%;
+  border-top: 2px solid black;
+}
+
+footer p {
+  margin: 0 auto;
+  margin-bottom: 0;
+  color: #000000;
 }
