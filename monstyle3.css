@@ -162,3 +162,9 @@ footer {
   margin: auto;
   vertical-align: text-bottom;
 }
+
+footer p {
+  margin: 0 auto;
+  margin-bottom: auto;
+  color: #000000;
+}
