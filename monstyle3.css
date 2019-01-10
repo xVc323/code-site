@@ -154,7 +154,7 @@ a : visited {
 }
 
 footer {
-  columns: 3;
+  columns: 2;
   column-width: 30%;
   column-rule-style: solid;
   column-rule-width: 30%;
