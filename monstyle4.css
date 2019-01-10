@@ -57,9 +57,9 @@ h2 {
   float: left;
   background: #FFFFFF;
   overflow: auto;
-  width: 100%;
+  width: 99%;
   clear: both;
-  margin-left: 1px
+  margin-left: 1px;
 }
 
 #menu {
