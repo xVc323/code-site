@@ -52,7 +52,6 @@ h2 {
   background: #222;
 }
 
-/* Disposition par défaut */
 #col1, #col2, #col3 {
   float: left;
   background: #FFFFFF;
@@ -67,7 +66,6 @@ h2 {
   overflow: auto;
 }
 
-/* min-width pour moyennes résolutions */
 @media screen and (min-width: 1024px) {
   #col1 {
     width: 30%;
@@ -84,7 +82,6 @@ h2 {
   }
 }
 
-/* max-width pour faibles résolutions */
 @media screen and (max-width: 640px) {
   #menu a {
     display: block;
