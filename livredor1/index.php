@@ -1,5 +1,5 @@
 <?php
-include('livre d'or/administration/config.php') ;
+include('livredor1/administration/config.php') ;
 
 //on teste l'existance de $_POST['pseudo'] et $_POST['message']
 if (isset($_POST['pseudo']) AND isset($_POST['message']) AND ($nbre_erreur==0)) {
