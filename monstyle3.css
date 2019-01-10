@@ -14,7 +14,6 @@ img {
 body {
   background: #CEF6EC;
   font-family: 'Open Sans', sans-serif;
-  overflow: hidden
 }
 
 hr {
@@ -157,8 +156,6 @@ footer {
   columns: 2;
   column-width: 40%;
   margin-bottom: : 1%;
-  display: block;
-  min-height:100%;
 }
 
 footer p {
