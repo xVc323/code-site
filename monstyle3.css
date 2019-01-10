@@ -17,6 +17,13 @@ body {
   overflow: hidden
 }
 
+hr {
+  width: 50%;
+  height: 2px;
+  background-color: #f90;
+  border: none;
+}
+
 .onglets {
   columns: 3;
   column-width: 30%;
@@ -35,12 +42,6 @@ body {
   margin: 0 auto;
   margin-bottom: auto;
   color: #000000;
-}
-
-hr {
-  width: 30%;
-  height: 2px;
-  background-color: #FFFFFF;
 }
 
 .col1 {
