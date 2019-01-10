@@ -34,6 +34,7 @@ img {
 .col1 {
 	float: left;
 	width: 20%;
+  padding-top: 20%
 }
 
 .col2 {
