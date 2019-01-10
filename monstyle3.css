@@ -44,7 +44,6 @@ hr {
 .ongletsbody {
   columns: 3;
   column-width: 30%;
-  column-rule-style: solid;
   column-rule-width: 30%;
   column-rule-color: black;
   margin: auto;
