@@ -46,6 +46,7 @@ img {
 
 .col3 {
 	float: right;
+  margin-right: 10%
 	width: 30%;
   margin-top: 40%;
 }
