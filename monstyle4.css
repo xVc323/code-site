@@ -22,9 +22,13 @@ a {
 h2 {
   background: #5CCAA6;
   color: #FFFFFF;
-  margin: 3;
+  margin: 0;
   padding: 2px;
   text-align: center;
+}
+
+.h2 p {
+  margin-top: 10px;
 }
 
 #menu ul, #menu li {
