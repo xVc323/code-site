@@ -82,6 +82,10 @@ hr {
   margin-top: 40%;
 }
 
+.col1, .col2, .col3 {
+  background-color: #5ccaa6;
+}
+
 .ctsm {
   background-color: #1AD1FF;
   border: 3px solid #000000;
