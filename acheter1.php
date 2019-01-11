@@ -56,7 +56,7 @@
 
   <div class="mention">
     <p> © Copyright ARDIZIO & CHEURFA </p>
-    <p> <b> <u> Informations légales </b> </u> </p>
+    <p> <b> <u> <a href="RGPD.html">Informations légales </b> </u> </a> </p>
   </div>
 
 </body>
