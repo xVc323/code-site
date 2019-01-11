@@ -4,7 +4,7 @@
 </head>
 <body>
 <?php
-$bdd = new PDO('mysql:host=localhost;dbname=achat', 'root', '');
+$bdd = new PDO('mysql:host=localhost;dbname=acheter', 'root', '');
 $req = $bdd->prepare('INSERT INTO achat2(NOM,Prénom,Adresse,Téléphone,Moyen de paiement désiré)
 VALUES(?,?,?,?,?)');
 $req->execute(array($_POST['NOM'], $_POST['Prénom'], $_POST['Adresse'], $_POST['Téléphone'], $_POST['Moyen de paiement désiré']));
