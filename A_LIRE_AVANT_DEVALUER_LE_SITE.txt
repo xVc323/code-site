@@ -1,0 +1,2 @@
+Les fichiers php sont d�finis pour marcher avec une base de donn�e MAC, avec le port : 8889
+Pour PC, utiliser : 3306
