@@ -1,3 +1,0 @@
-Et voilà!
-Dans 'livredo_inser.php', n'oubliez pas de changer l'adresse de redirection (ligne 3) et l'e-mail du webmaster (ligne47).
-Bien sûr, ce code n'est pas très complet, mais il est toujours en cours d'amélioration. Vous pouvez ajouter des fonctions pour la mise en forme du message (gras, url, smiley,...), ou ajouter une fonction pour vérifier l'e-mail.
