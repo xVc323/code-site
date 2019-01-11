@@ -29,7 +29,7 @@
             <li><a href="index4.html">Acceuil</a></li>
             <li><a href="cts.html">Caractéristiques</a></li>
             <li><a href="acheter.html">Acheter</a></li>
-            <li><a href="panier.php">Panier</a></li>
+            <li><a href="RGPD.html">RGPD</a></li>
       <li><a href="livredor.php">Livre d'or</a></li>
         </ul>
     </div>
